@@ -1,9 +1,11 @@
 {
   "name": "claude-info",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "See where your Claude Code tokens go. One command, zero setup.",
   "main": "index.js",
-  "bin": "./index.js",
+  "bin": {
+    "claude-info": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tarsislimadev/claude-info.git"
@@ -13,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tarsislimadev/claude-info/issues"
   },
-  "homepage": "https://github.com/tarsislimadev/claude-info#readme"
+  "homepage": "https://github.com/tarsislimadev/claude-info#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.81"
+  }
 }
