@@ -1,4 +1,4 @@
-# Claude info
+# Claude Info
 
 See where your Claude Code tokens go. One command, zero setup.
 
