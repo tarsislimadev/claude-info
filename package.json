@@ -1,0 +1,17 @@
+{
+  "name": "claude-info",
+  "version": "0.1.0",
+  "description": "See where your Claude Code tokens go. One command, zero setup.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarsislimadev/claude-info.git"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tarsislimadev/claude-info/issues"
+  },
+  "homepage": "https://github.com/tarsislimadev/claude-info#readme"
+}
